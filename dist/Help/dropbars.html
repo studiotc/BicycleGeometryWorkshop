@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Bicycle Geometry Workshop</title>
+
+   
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+
+  </head>
+
+  <body>
+
+	<a href="index.html"> Back to Index</a><br>
+	<a href="handlebars.html"> Back to Handlebars</a><br>
+
+	
+	<h1>Drop Bar</h1>
+	
+	<p>
+	
+	The drop bars are designed to emulate the hand positions of standard drop bars.  They can be specified with a straight ramp for the top (hood) portion and with a straight grip section in the drops also.   The handlebars use a simple curve if these straight sections are not used.  The drop bars specify four hand points: A,B,C, and D.  HandPointA is the center grip position at the stem.  HandPointB is the typical hood position.  HandPointC is the drop position.  HandPointD is on the extension.
+
+	</p>	
+	
+	
+	<img src="assets/images/DropBarSimple.png" alt="Drop Bar Simple">
+	<img src="assets/images/DropBarRampDrop.png" alt="Drop Bar Ramp and Drop">
+
+	<h3>MountingAngle</h3>
+	<p>
+	This is mounting angle of the drop bar.
+	</P>
+	
+	<h3>Reach</h3>
+	<p>
+	This is distance from the mounting point to the bar centerline at it's furthest reach.
+	</P>
+
+	<h3>Drop</h3>
+	<p>
+	This is distance from the mounting point to the bar centerline at it's lowest drop.
+	</P>
+	
+	<h3>Extension</h3>
+	<p>
+	This is length of extension from the end of the bar.  The extension is a straight section parallel to the ground when mounted at zero degrees.
+	</P>	
+	
+	<h3>RampAngle</h3>
+	<p>
+	This is angle of the ramp of the handlebar.
+	</P>
+	<h3>RampLength</h3>
+	<p>
+	This is length of the ramp of the handlebar. The handlebar is curved to it's midpoint after the ramp.
+	</P>
+	
+	<h3>DropAngle</h3>
+	<p>
+	This is angle of the straight grip section in the drop of the handlebar.
+	</P>
+	<h3>DropLength</h3>
+	<p>
+	This is length of the straight grip section in the drop of the handlebar. The handlebar is curved to it's midpoint after this section.
+	</P>	
+	
+	<h3>CenterHeight</h3>
+	<p>
+	This is height above the center of the bar for HandPointA.
+	</P>	
+
+	<h3>HoodT</h3>
+	<p>
+	This is a scale value that determines the placement of HandPointB on the hoods.  A value of zero will place the hand at the begining of the bar and a value of one will put the point at the midpoint of the bar.  If there is a ramp section, 0 to 0.5 will put the handpoint on the ramp, and 0.5 to 1.0 will put the handpoint in the curved portion.
+	</P>
+
+	<h3>DropT</h3>
+	<p>
+	This is a scale value that determines the placement of HandPointC in the drops.  A value of zero will place the hand at the midpoint of the bar and a value of one will put the point at the end of the bar (before the extension).  If there is a straight grip section, the handpoint is placed on this section according to the T value.
+	</P>
+
+	<h3>ExtensionT</h3>
+	<p>
+	This is a scale value that determines the placement of HandPointD on the extension.  A value of zero will place the hand at the begining of the extension and a value of one will put the point at the end of the extension. 
+	</P>
+
+  </body>
+	
+	
+	
+</html>

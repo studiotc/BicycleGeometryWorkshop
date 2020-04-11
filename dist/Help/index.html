@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Bicycle Geometry Workshop</title>
+
+   
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+
+  </head>
+
+  <body>
+
+
+	<h1>Bicycle Geometry Workshop</h1>
+	
+	<p>
+	
+	Welcome to the The Bicycle Geometry Workshop.  This application was designed to 
+	help in analyzing the bicycle and rider geometry relationship.  
+	The workshop allows for comparing frames, complete bicycles, and the rider position in relation.<br>
+
+	</p>
+	
+	<h2>Quick Start</h2>
+	
+	
+	<img src="assets/images/mainHelpImage.png" alt="Main Screen">
+	
+	<h3> Navigator</h3>
+	<p>
+	The Navigator is the organizer for the Bicycle Geometry Project.  The nodes in the tree represent 
+	different aspects of the model:  the Rider measurements, the Rider pose (position), and the list of Bicycles 
+	and all of their components (Frame, Wheels, Handlebars, etc.).  Click on a node to load it in 
+	the Editor below. Each node has it's own menu: i.e. Right-Click on Bicycles to show the Bicycle menu and add a new Bicycle.
+	
+	</P>
+
+	<h3>Editor</h3>
+	<p>
+	The Editor displays the list of attributes associated with selected component.  
+	All changes are to the model are made here through the provided editing widgets.  
+	Note: Hold the mouse over the label to get a description of the field.
+	
+	</p>
+	
+	<h3>Viewer</h3>
+	<p>
+	The Viewer panel in the upper right of the UI displays the bicycle(s) and rider(s), etc.  
+	Measuring tools are provided in the Measure menu and work interactively in the Viewer panel.
+	
+	</p>
+	
+	<h3>Report</h3>
+	<p>
+	The Report in the lower right of the UI displays the calulated Bicycle and Rider values.  The report contains 
+	measurements calculated from the frame and bicycle, and also the angles and measurements of the rider relationship.
+	
+	</P>
+	<a href="reportValues.html">Report Values</a><br>
+	
+	<h3>Display Units</h3>
+	<p>
+	Display units may be toggled between millimeters and decimal inches in the menu: Edit->Display Units.
+	</P>
+	
+	<h3>Library</h3>
+	<p>
+	There is a built-in Library for storing standard components.  Right-Click on nodes in the Editor to 
+	import or export a component to the Library.  Note:  give the component a meaningfull name in the 'Name' field 
+	before exporting to the Library.  The 'Name' field is used by the Library for display.
+	</P>
+
+	<h3>Default File</h3>
+	<p>
+	A user  can create a default file that will be opened everytime the software is run.  Setup a project as desired and save it to the Library folder as 'default.bgw'.  This file will be used as a template. 
+	</P>
+
+	<h2> Rider </h2>
+
+	<p>
+	The rider represents the rider measurements and the rider pose (position of rider, rotation of components, hand position, etc.).  This uses a simplified kinematic model for the rider. 
+	</p>
+
+	<a href="riderMeasurements.html">Rider Measurements</a><br>
+	<a href="riderPose.html">Rider Pose</a><br>
+
+	<h2> Bicycles </h2>
+	<P>The Bicycles node stores the project preferences.  Each Bicycle node stores the bicycle preferences.
+	</p>
+	
+	<a href="bicyclesGroup.html">Bicycles (List)</a><br>
+	<a href="bicycle.html">Bicycle (Individual)</a><br>
+		
+
+	<h2> Components </h2>
+	
+	<p>
+	The components represent all the individual parts of the Bicycle.  Note: The parametric models for components are loosley constrained, which means you can enter values that will 'break' components.  If things break, double check the entered values and that they make sense for the component.
+	</p>
+	
+
+	
+	<a href="frame.html">Frame</a><br>
+	<a href="wheels.html">Wheels</a><br>
+	<a href="cranks.html">Cranks</a><br>
+	<a href="pedals.html">Pedals</a><br>
+	<a href="stem.html">Stem</a><br>
+	<a href="handlebars.html">Handlebars</a><br>	
+	<a href="seatPost.html">Seat Post</a><br>
+	<a href="saddle.html">Saddle</a><br>
+
+	
+	
+
+  </body>
+	
+	
+	
+</html>
